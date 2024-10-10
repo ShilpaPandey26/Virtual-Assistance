@@ -54,7 +54,7 @@ def speechtotext(duration):
     try:
         response = r.recognize_google(audio)
     except:
-        response = 'shilapandey@gmailcom'
+        response = 'N'
     return response
 
 def convert_special_char(text):
